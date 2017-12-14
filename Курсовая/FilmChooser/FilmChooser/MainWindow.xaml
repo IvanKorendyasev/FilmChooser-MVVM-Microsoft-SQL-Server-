@@ -60,7 +60,8 @@
             <ComboBox Grid.Column="5" Grid.Row="0" Margin="5" ItemsSource="{Binding ISO}" SelectedItem="{Binding SelectedISO}"></ComboBox>
             <TextBox Grid.Column="3" Grid.Row="1" Margin="5" Text="{Binding MinCost}"></TextBox>
             <TextBox Grid.Column="5" Grid.Row="1" Margin="5" Text="{Binding MaxCost}"></TextBox>
-            <Button Grid.Column="0" Grid.Row="2" Content="Фильтровать" Command="{Binding ClickCommand2}" Margin="5"></Button>
+            <Button Grid.Column="0" Grid.Row="1" Content="Фильтровать" Command="{Binding ClickCommand2}" Margin="5"></Button>
+            <Button Grid.Column="1" Grid.Row="1" Margin="5" Content="Запись в файл" Command="{Binding ClickCommand3}"></Button>
         </Grid>
         <ListBox Grid.Column="0" Grid.Row="2" ItemsSource ="{Binding stringsToView}"/>
 

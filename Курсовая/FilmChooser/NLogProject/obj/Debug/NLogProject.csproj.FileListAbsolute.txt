@@ -5,3 +5,11 @@ D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Кур
 D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\NLogProject\bin\Debug\NLog.xml
 D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\NLogProject\obj\Debug\NLogProject.dll
 D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\NLogProject\obj\Debug\NLogProject.pdb
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\bin\Debug\NLog.config
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\bin\Debug\NLogProject.dll
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\bin\Debug\NLogProject.pdb
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\bin\Debug\NLog.dll
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\bin\Debug\NLog.xml
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\obj\Debug\NLogProject.csprojResolveAssemblyReference.cache
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\obj\Debug\NLogProject.dll
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\obj\Debug\NLogProject.pdb

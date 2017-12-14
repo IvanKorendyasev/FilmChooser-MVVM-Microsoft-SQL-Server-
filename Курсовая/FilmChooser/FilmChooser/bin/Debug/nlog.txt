@@ -15,3 +15,41 @@
 2017/12/14 19:01:54.255|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
 2017/12/14 19:01:54.255|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
 2017/12/14 19:01:59.667|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/14 19:46:24.755|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 19:46:25.170|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 19:46:25.170|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 19:46:42.057|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/14 19:46:43.881|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/14 23:23:40.267|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 23:23:52.039|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 23:23:52.039|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 23:25:07.111|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 23:25:07.814|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 23:25:07.814|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 23:39:21.917|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 23:39:22.699|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 23:39:22.699|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 23:39:29.781|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/14 23:40:22.217|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 23:40:22.927|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 23:40:22.927|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 23:40:26.738|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/14 23:40:43.548|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 23:40:44.111|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 23:40:44.111|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 23:41:30.578|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 23:41:31.204|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 23:41:31.204|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 23:41:33.842|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/14 23:41:44.535|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/14 23:42:15.859|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 23:42:16.433|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 23:42:16.433|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 23:42:20.054|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/14 23:43:06.149|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 23:43:06.709|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 23:43:06.709|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 23:44:30.993|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 23:44:31.759|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 23:44:31.768|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 23:44:47.390|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил

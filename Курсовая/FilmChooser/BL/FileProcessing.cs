@@ -9,6 +9,7 @@ using System.Net;
 using System.IO;
 using Newtonsoft.Json;
 using System.Configuration;
+using ExcelLibrary.SpreadSheet;
 
 namespace BL
 {
@@ -29,6 +30,25 @@ namespace BL
         {
             Process.Start("https://shop.sreda.photo/");
             Logger.LogInfo("Открыл сайт");
+        }
+
+        public void SaveInExcel(List<Film> FilmsToSave)
+        { //записывает выведенные на экран пленки в эксель
+            string file = "newdoc.xls";
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = new Worksheet("Первый Лист");
+            int i = 0;
+            foreach (var item in FilmsToSave)
+            {
+                worksheet.Cells[i, 0] = new Cell(item.Firm);
+                worksheet.Cells[i, 1] = new Cell(item.Name);
+                worksheet.Cells[i, 2] = new Cell(item.ISO);
+                worksheet.Cells[i, 3] = new Cell(item.Type);
+                worksheet.Cells[i, 4] = new Cell(item.Cost + " рублей");
+                i++;
+            }
+            workbook.Worksheets.Add(worksheet);
+            workbook.Save(file);
         }
 
         public List<Film> GetFilmsFromDB() //получает пленки из DAL

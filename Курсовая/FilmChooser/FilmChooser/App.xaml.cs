@@ -33,6 +33,6 @@ namespace FilmChooser
         {
             AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(GlobalException);
         }
-
+        
     }
 }

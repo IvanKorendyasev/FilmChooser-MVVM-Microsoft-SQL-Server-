@@ -50,6 +50,7 @@ namespace FilmChooser
         public bool _canExecute = true;
         public List<BL.Film> AllFilms;
         public List<string> stringsToView { get; set; }
+        public List<BL.Film> FilmsToView { get; set; }
         public float Temperature { get; set; }
         public string CityName { get; set; }
         NLogProject.LogMaker Logger = new NLogProject.LogMaker();
@@ -80,6 +81,7 @@ namespace FilmChooser
             Type.Add("Цветная");
 
             AllFilms = FP.FilmsFromDB;
+            FilmsToView = AllFilms;
             stringsToView = MakeStrings(AllFilms);
 
             Temperature = FP.Temperature;
@@ -128,6 +130,7 @@ namespace FilmChooser
             }
             stringsToView = MakeStrings(query.ToList()); 
             DoPropertyChanged("stringsToView");
+            FilmsToView = query.ToList();
             Logger.LogInfo("Всё ок, просто фильтры применил");
         }
 
@@ -175,6 +178,20 @@ namespace FilmChooser
             }
         }
 
+
+        private ICommand _clickCommand3;
+        public ICommand ClickCommand3 //комманда кнопки, которая записывает выведенные на экран пленки в эксель
+        {
+            set
+            {
+                FP.SaveInExcel(FilmsToView);
+            }
+            get
+            {
+
+                return _clickCommand3 ?? (_clickCommand3 = new CommandHandler(() => FP.SaveInExcel(FilmsToView), _canExecute));
+            }
+        }
 
 
         public class CommandHandler : ICommand
