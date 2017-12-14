@@ -1,0 +1,17 @@
+2017/12/14 18:37:08.186|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/14 18:47:08.628|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 18:47:14.131|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 18:47:14.134|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 18:47:25.706|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/14 18:47:35.754|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/14 18:47:38.245|Info|BL.FileProcessing.GoToSite: Открыл сайт
+2017/12/14 18:48:59.294|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 18:49:00.079|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 18:49:00.079|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 18:49:16.440|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 18:49:16.872|Error|BL.FileProcessing.GetTempFromAPI: Не удалось получить погоду. Нет сети.
+2017/12/14 18:49:16.877|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 19:01:53.756|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/14 19:01:54.255|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/14 19:01:54.255|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/14 19:01:59.667|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил

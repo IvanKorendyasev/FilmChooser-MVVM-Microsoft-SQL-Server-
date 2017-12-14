@@ -1,0 +1,10 @@
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\DAL\bin\Debug\DAL.dll
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\DAL\bin\Debug\DAL.pdb
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\DAL\obj\Debug\DAL.dll
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\DAL\obj\Debug\DAL.pdb
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\DAL\bin\Debug\NLog.config
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\DAL\bin\Debug\NLogProject.dll
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\DAL\bin\Debug\NLog.dll
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\DAL\bin\Debug\NLogProject.pdb
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\DAL\bin\Debug\NLog.xml
+D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Курсовая\FilmChooser\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
