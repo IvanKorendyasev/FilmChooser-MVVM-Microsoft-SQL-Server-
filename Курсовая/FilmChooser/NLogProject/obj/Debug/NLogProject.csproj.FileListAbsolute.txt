@@ -10,6 +10,5 @@ D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursov
 D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\bin\Debug\NLogProject.pdb
 D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\bin\Debug\NLog.dll
 D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\bin\Debug\NLog.xml
-D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\obj\Debug\NLogProject.csprojResolveAssemblyReference.cache
 D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\obj\Debug\NLogProject.dll
 D:\Ваня\Учёба\Базы данных в САПР\5 семестр\Kursovaya\Курсовая\FilmChooser\NLogProject\obj\Debug\NLogProject.pdb

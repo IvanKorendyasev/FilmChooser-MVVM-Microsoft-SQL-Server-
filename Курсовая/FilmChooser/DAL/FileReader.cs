@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLogProject;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -9,18 +10,20 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class FileReader
+    public class FileReader : IFileReader
     {
         public FileReader()
         {
+            Logger = new LogMaker();
             GetFilms();
         }
         FilmModel FM = new FilmModel();
-        public List<FilmModel> Result = new List<FilmModel>();
-        NLogProject.LogMaker Logger = new NLogProject.LogMaker();
+        public List<FilmModel> Result { get; set; } = new List<FilmModel>();
+        ILogMaker Logger;
+        //NLogProject.LogMaker Logger = new NLogProject.LogMaker();
         public List<FilmModel> GetFilms() //получает пленки из бд
         {
-                // using (SqlConnection cn = new SqlConnection("Server = IVAN-PC\\SQLEXPRESS; Database = FilmDataBase; Trusted_Connection = True;")) //работает, но строка подключения не в конфиге. На всякий случай оставлю
+                //using (SqlConnection cn = new SqlConnection("Server = IVAN-PC\\SQLEXPRESS; Database = FilmDataBase; Trusted_Connection = True;")) //работает, но строка подключения не в конфиге. На всякий случай оставлю
                 using (SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString)) //Читает строку из конфига
                 {
                     cn.Open();

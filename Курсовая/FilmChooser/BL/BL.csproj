@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="FileProcessing.cs" />
     <Compile Include="Film.cs" />
+    <Compile Include="IFileProcessing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TemperatureInfo.cs" />
     <Compile Include="WeatherResponse.cs" />

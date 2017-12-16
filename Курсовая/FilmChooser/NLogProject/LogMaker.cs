@@ -8,7 +8,7 @@ using System.Diagnostics;
 
 namespace NLogProject
 {
-    public class LogMaker
+    public class LogMaker : ILogMaker
     {
         private Logger _logger;
 

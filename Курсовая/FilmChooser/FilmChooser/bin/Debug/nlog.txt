@@ -53,3 +53,24 @@
 2017/12/14 23:44:31.759|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
 2017/12/14 23:44:31.768|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
 2017/12/14 23:44:47.390|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/16 18:27:05.070|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/16 18:27:06.380|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/16 18:27:06.396|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/16 18:27:17.204|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/16 19:34:54.019|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/16 19:34:56.721|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/16 19:34:56.731|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/16 19:35:09.708|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/16 19:49:13.876|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/16 19:49:14.550|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/16 19:49:14.550|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/16 20:08:00.914|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/16 20:08:02.514|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/16 20:08:02.514|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/16 20:08:25.409|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил
+2017/12/16 20:08:29.500|Info|BL.FileProcessing.GoToSite: Открыл сайт
+2017/12/16 20:17:44.451|Info|DAL.FileReader.GetFilms: Данные получены из бд
+2017/12/16 20:17:45.091|Info|BL.FileProcessing.GetTempFromAPI: Получил погоду
+2017/12/16 20:17:45.091|Info|FilmChooser.MainWindowViewModel..ctor: Программа запущена
+2017/12/16 20:17:49.372|Info|BL.FileProcessing.GoToSite: Открыл сайт
+2017/12/16 20:17:50.176|Info|FilmChooser.MainWindowViewModel.ApplyFilters: Всё ок, просто фильтры применил

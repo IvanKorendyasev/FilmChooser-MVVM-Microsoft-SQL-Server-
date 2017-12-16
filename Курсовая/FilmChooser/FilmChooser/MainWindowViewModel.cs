@@ -6,12 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Input;
-
+using BL;
+using NLogProject;
 
 namespace FilmChooser
 {
     class MainWindowViewModel : INotifyPropertyChanged
     {
+
         public List<string> Firm { get; set; }
         public List<string> Type { get; set; }
         public List<int> ISO { get; set; }
@@ -46,17 +48,23 @@ namespace FilmChooser
         }
         public int MinCost { get; set; }
         public int MaxCost { get; set; }
-        public BL.FileProcessing FP = new BL.FileProcessing();
+        IFileProcessing FP;
+        //public BL.FileProcessing FP = new BL.FileProcessing(); //жесткая привящка классов. Неправильно, но убирать пока не буду
         public bool _canExecute = true;
         public List<BL.Film> AllFilms;
         public List<string> stringsToView { get; set; }
         public List<BL.Film> FilmsToView { get; set; }
         public float Temperature { get; set; }
         public string CityName { get; set; }
-        NLogProject.LogMaker Logger = new NLogProject.LogMaker();
+        ILogMaker Logger;
+       // NLogProject.LogMaker Logger = new NLogProject.LogMaker();
 
         public MainWindowViewModel()
         {
+            Logger = new LogMaker();
+
+            FP = new FileProcessing();
+
             SelectedFirm = "Не выбрано";
             SelectedType = "Не выбрано";
 

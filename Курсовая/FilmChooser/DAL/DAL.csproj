@@ -44,6 +44,7 @@
     <Compile Include="FileReader.cs" />
     <Compile Include="Film.cs" />
     <Compile Include="FilmModel.cs" />
+    <Compile Include="IFileReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

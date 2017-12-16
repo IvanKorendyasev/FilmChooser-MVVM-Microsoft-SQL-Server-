@@ -10,18 +10,23 @@ using System.IO;
 using Newtonsoft.Json;
 using System.Configuration;
 using ExcelLibrary.SpreadSheet;
+using NLogProject;
 
 namespace BL
 {
-    public class FileProcessing
+    public class FileProcessing : IFileProcessing
     {
-        DAL.FileReader FR = new DAL.FileReader();
-        public List<Film> FilmsFromDB = new List<Film>();
+        IFileReader FR;
+        //DAL.FileReader FR = new DAL.FileReader();
+        public List<Film> FilmsFromDB {get; set;}
         public float Temperature { get; set; }
         public string City { get; set; }
-        NLogProject.LogMaker Logger = new NLogProject.LogMaker();
+        ILogMaker Logger;
+       // NLogProject.LogMaker Logger = new NLogProject.LogMaker();
         public FileProcessing()
         {
+            FR = new FileReader();
+            Logger = new LogMaker();
             FilmsFromDB = GetFilmsFromDB();
             GetTempFromAPI();
         }
